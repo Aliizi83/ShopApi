@@ -721,19 +721,19 @@
     ]
   },
   "packageFolders": {
-    "/home/ali-izi/.nuget/packages/": {}
+    "/home/ali/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj",
+      "projectUniqueName": "/home/ali/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj",
       "projectName": "Shop.Infrastructure",
-      "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj",
-      "packagesPath": "/home/ali-izi/.nuget/packages/",
-      "outputPath": "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/obj/",
+      "projectPath": "/home/ali/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj",
+      "packagesPath": "/home/ali/.nuget/packages/",
+      "outputPath": "/home/ali/Projects/ShopApi/Shop.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ali-izi/.nuget/NuGet/NuGet.Config"
+        "/home/ali/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -746,11 +746,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj": {
-              "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj"
+            "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj": {
+              "projectPath": "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj"
             },
-            "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj": {
-              "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj"
+            "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj": {
+              "projectPath": "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj"
             }
           }
         }

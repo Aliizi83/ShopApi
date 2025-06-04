@@ -9,3 +9,15 @@
 /home/ali-izi/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/refint/Shop.Domain.dll
 /home/ali-izi/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/Shop.Domain.pdb
 /home/ali-izi/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/ref/Shop.Domain.dll
+/home/ali/Projects/ShopApi/Shop.Domain/bin/Debug/net9.0/Shop.Domain.deps.json
+/home/ali/Projects/ShopApi/Shop.Domain/bin/Debug/net9.0/Shop.Domain.dll
+/home/ali/Projects/ShopApi/Shop.Domain/bin/Debug/net9.0/Shop.Domain.pdb
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/Shop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/Shop.Domain.AssemblyInfoInputs.cache
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/Shop.Domain.AssemblyInfo.cs
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/Shop.Domain.csproj.CoreCompileInputs.cache
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/Shop.Domain.sourcelink.json
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/Shop.Domain.dll
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/refint/Shop.Domain.dll
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/Shop.Domain.pdb
+/home/ali/Projects/ShopApi/Shop.Domain/obj/Debug/net9.0/ref/Shop.Domain.dll
