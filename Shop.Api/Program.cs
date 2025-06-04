@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Shop.Infrastructure;
+using Shop.Infrastructure.Persistence;
+using Shop.Infrastructure.Persistence.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,10 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<ShopDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
+
+// Register Seeders
+
+builder.Services.AddTransient<ISeeder<ShopDbContext>, UserSeeder>();
 
 var app = builder.Build();
 
@@ -38,6 +44,20 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+
+//Run Seeders
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ShopDbContext>();
+    var seeders = scope.ServiceProvider.GetServices<ISeeder<ShopDbContext>>();
+
+    foreach (var seeder in seeders)
+    {
+        seeder.Seed(dbContext);
+    }
+
+    dbContext.SaveChanges();
+}
 
 app.Run();
 
