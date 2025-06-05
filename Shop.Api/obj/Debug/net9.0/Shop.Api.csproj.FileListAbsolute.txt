@@ -287,3 +287,5 @@
 /home/ali/Projects/ShopApi/Shop.Api/obj/Debug/net9.0/Shop.Api.pdb
 /home/ali/Projects/ShopApi/Shop.Api/obj/Debug/net9.0/Shop.Api.genruntimeconfig.cache
 /home/ali/Projects/ShopApi/Shop.Api/obj/Debug/net9.0/ref/Shop.Api.dll
+/home/ali/Projects/ShopApi/Shop.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.Versioning.dll
+/home/ali/Projects/ShopApi/Shop.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll

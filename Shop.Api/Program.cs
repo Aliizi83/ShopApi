@@ -1,6 +1,10 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
 using Shop.Api.Extensions;
 using Shop.Api.Filters.Global;
+using Shop.Api.Swagger;
 using Shop.Infrastructure;
 using Shop.Infrastructure.Persistence;
 using Shop.Infrastructure.Persistence.Interface;
@@ -25,8 +29,22 @@ builder.Services.AddControllers(options => { options.Filters.Add(new ValidateMod
 builder.Services.MapRepositories();
 builder.Services.MapServices();
 
+builder.Services.AddApiVersioning(options =>
+{
+    options.ReportApiVersions = true;
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ApiVersionReader = new UrlSegmentApiVersionReader();
+});
+
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddVersionedApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = true;
+});
 builder.Services.AddSwaggerGen();
+builder.Services.ConfigureOptions<ConfigurationSwaggerOptions>();
 
 var app = builder.Build();
 
@@ -34,13 +52,18 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    var provider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
+
     app.UseSwagger();
-    app.UseSwaggerUI(c =>
+    app.UseSwaggerUI(options =>
+    {
+        foreach (var desc in provider.ApiVersionDescriptions)
         {
-            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Shop.Api v1");
-            c.RoutePrefix = string.Empty;
+            options.SwaggerEndpoint($"/swagger/{desc.GroupName}/swagger.json", desc.GroupName.ToUpperInvariant());
         }
-    );
+
+        options.RoutePrefix = string.Empty;
+    });
 }
 
 app.UseHttpsRedirection();
