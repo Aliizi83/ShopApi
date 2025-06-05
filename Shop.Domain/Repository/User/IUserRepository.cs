@@ -5,4 +5,5 @@ using Entity.Users;
 public interface IUserRepository
 {
     User? GetUserByIdentifier(string identifier);
+    User? GetUserById(int id);
 }

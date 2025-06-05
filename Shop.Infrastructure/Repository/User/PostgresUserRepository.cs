@@ -1,7 +1,7 @@
 using Shop.Domain.Repository.User;
 using userModel = Shop.Domain.Entity.Users;
 
-namespace Shop.Infrastructure.Repository.Postgres.User;
+namespace Shop.Infrastructure.Repository.User;
 
 public class PostgresUserRepository(ShopDbContext shopDbContext) : IUserRepository
 {
@@ -15,5 +15,11 @@ public class PostgresUserRepository(ShopDbContext shopDbContext) : IUserReposito
                 u.Username == identifier ||
                 u.PhoneNumber == identifier
             );
+    }
+
+    public userModel.User? GetUserById(int id)
+    {
+        return _shopDbContext.Users
+            .FirstOrDefault(u => u.Id == id);
     }
 }

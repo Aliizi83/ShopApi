@@ -1,5 +1,5 @@
 using Shop.Domain.Repository.User;
-using Shop.Infrastructure.Repository.Postgres.User;
+using Shop.Infrastructure.Repository.User;
 
 namespace Shop.Api.Extensions;
 
