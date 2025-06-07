@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ali/Projects/ShopApi/Shop.Api/Shop.Api.csproj": {}
+    "/home/ali-izi/Projects/ShopApi/Shop.Api/Shop.Api.csproj": {}
   },
   "projects": {
-    "/home/ali/Projects/ShopApi/Shop.Api/Shop.Api.csproj": {
+    "/home/ali-izi/Projects/ShopApi/Shop.Api/Shop.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ali/Projects/ShopApi/Shop.Api/Shop.Api.csproj",
+        "projectUniqueName": "/home/ali-izi/Projects/ShopApi/Shop.Api/Shop.Api.csproj",
         "projectName": "Shop.Api",
-        "projectPath": "/home/ali/Projects/ShopApi/Shop.Api/Shop.Api.csproj",
-        "packagesPath": "/home/ali/.nuget/packages/",
-        "outputPath": "/home/ali/Projects/ShopApi/Shop.Api/obj/",
+        "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Api/Shop.Api.csproj",
+        "packagesPath": "/home/ali-izi/.nuget/packages/",
+        "outputPath": "/home/ali-izi/Projects/ShopApi/Shop.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ali/.nuget/NuGet/NuGet.Config"
+          "/home/ali-izi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -27,11 +27,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj": {
-                "projectPath": "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj"
+              "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj": {
+                "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj"
               },
-              "/home/ali/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj": {
-                "projectPath": "/home/ali/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj"
+              "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj": {
+                "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj"
               }
             }
           }
@@ -98,17 +98,17 @@
         }
       }
     },
-    "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj": {
+    "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj",
+        "projectUniqueName": "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj",
         "projectName": "Shop.Application",
-        "projectPath": "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj",
-        "packagesPath": "/home/ali/.nuget/packages/",
-        "outputPath": "/home/ali/Projects/ShopApi/Shop.Application/obj/",
+        "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj",
+        "packagesPath": "/home/ali-izi/.nuget/packages/",
+        "outputPath": "/home/ali-izi/Projects/ShopApi/Shop.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ali/.nuget/NuGet/NuGet.Config"
+          "/home/ali-izi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -121,8 +121,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj": {
-                "projectPath": "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj"
+              "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj": {
+                "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj"
               }
             }
           }
@@ -162,17 +162,17 @@
         }
       }
     },
-    "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj": {
+    "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj",
+        "projectUniqueName": "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj",
         "projectName": "Shop.Domain",
-        "projectPath": "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj",
-        "packagesPath": "/home/ali/.nuget/packages/",
-        "outputPath": "/home/ali/Projects/ShopApi/Shop.Domain/obj/",
+        "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj",
+        "packagesPath": "/home/ali-izi/.nuget/packages/",
+        "outputPath": "/home/ali-izi/Projects/ShopApi/Shop.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ali/.nuget/NuGet/NuGet.Config"
+          "/home/ali-izi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -222,17 +222,17 @@
         }
       }
     },
-    "/home/ali/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj": {
+    "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ali/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj",
+        "projectUniqueName": "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj",
         "projectName": "Shop.Infrastructure",
-        "projectPath": "/home/ali/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj",
-        "packagesPath": "/home/ali/.nuget/packages/",
-        "outputPath": "/home/ali/Projects/ShopApi/Shop.Infrastructure/obj/",
+        "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/Shop.Infrastructure.csproj",
+        "packagesPath": "/home/ali-izi/.nuget/packages/",
+        "outputPath": "/home/ali-izi/Projects/ShopApi/Shop.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ali/.nuget/NuGet/NuGet.Config"
+          "/home/ali-izi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -245,11 +245,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj": {
-                "projectPath": "/home/ali/Projects/ShopApi/Shop.Application/Shop.Application.csproj"
+              "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj": {
+                "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Application/Shop.Application.csproj"
               },
-              "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj": {
-                "projectPath": "/home/ali/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj"
+              "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj": {
+                "projectPath": "/home/ali-izi/Projects/ShopApi/Shop.Domain/Shop.Domain.csproj"
               }
             }
           }
