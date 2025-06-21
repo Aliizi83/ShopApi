@@ -4,11 +4,13 @@ using Shop.Domain.Entity.Product;
 
 namespace Shop.Infrastructure.Persistence.Configuration.Product;
 
-public class ProductCategoryConfiguration : IEntityTypeConfiguration<ProductCategory>
+public class ProductCategoryConfiguration : IEntityTypeConfiguration<Category>
 {
-    public void Configure(EntityTypeBuilder<ProductCategory> builder)
+    public void Configure(EntityTypeBuilder<Category> builder)
     {
-        builder.HasOne(c => c.Parent).WithMany(c => c.Children).HasForeignKey(c => c.ParentId)
-            .OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne(c => c.Parent).
+            WithMany(c => c.Children).
+            HasForeignKey(c => c.ParentId).
+            OnDelete(DeleteBehavior.Restrict);
     }
 }
